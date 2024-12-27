@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.weather-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.weather-header .datetime {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.temperature {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.weather-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.temp-value {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.detail img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.character-images {
+    position: relative;
+    margin-top: 20px;
+}
+
+.character-main {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    filter: drop-shadow(15px 5px 3px #aaa);
+}
+
+.character-chibi {
+    width: 100px;
+    height: auto;
+}
+
+footer {
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
